@@ -1,0 +1,13 @@
+src/ProjectView.vala
+src/CompositionView.vala
+src/HeaderBar.vala
+src/main.vala
+src/MainWindow.vala
+src/Timeline.vala
+src/Widgets/CompositionWidget.vala
+src/Widgets/LayerWidget.vala
+src/Widgets/Ruler.vala
+src/Objects/CompositionClip.vala
+src/Objects/CompositionClipAsset.vala
+src/Objects/CompositionSource.vala
+src/Objects/CompositionSourceAsset.vala

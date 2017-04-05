@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Emphasis
+GenericName=Video Compositing
+Comment=Create awesome videos with ease
+Exec=com.github.tintou.emphasis
+Icon=com.github.tintou.emphasis
+Terminal=false
+Categories=GNOME;GTK;Video;
+StartupNotify=true

@@ -1,0 +1,35 @@
+project_files = files(
+    'ProjectView.vala',
+    'CompositionView.vala',
+    'HeaderBar.vala',
+    'main.vala',
+    'MainWindow.vala',
+    'Timeline.vala',
+    'Widgets/CompositionWidget.vala',
+    'Widgets/LayerWidget.vala',
+    'Widgets/Ruler.vala',
+    'Objects/CompositionClip.vala',
+    'Objects/CompositionClipAsset.vala',
+    'Objects/CompositionSource.vala',
+    'Objects/CompositionSourceAsset.vala',
+)
+
+executable(
+    meson.project_name(),
+    project_files,
+    dependencies: [
+        gobject_dep,
+        glib_dep,
+        gio_dep,
+        gee_dep,
+        gtk_dep,
+        gstreamer_dep,
+        gstreamer_base_dep,
+        gstreamer_pbutils_dep,
+        gstreamer_video_dep,
+        gstreamer_editing_services_dep,
+        posix_dep,
+        libm_dep,
+    ],
+    install: true,
+)
